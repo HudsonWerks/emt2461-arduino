@@ -22,7 +22,7 @@ const int gH = 784;
 const int gSH = 830;
 const int aH = 880;
  
-const int buzzerPin = 18;
+const int buzzerPin = PIN_NUMBER_HERE;
  
 int counter = 0;
  
