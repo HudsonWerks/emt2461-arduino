@@ -18,8 +18,7 @@
 // use 5000 Hz as a LEDC base frequency
 #define LEDC_BASE_FREQ     5000
 
-// fade LED PIN (replace with LED_BUILTIN constant for built-in LED)
-//#define LED_PIN            5
+// fade LED PIN (replace with LED_BUILTIN constant for built-in LED) – Find correct pin number on PIN breakout diagram
 #define LED_PIN            32
 
 int brightness = 0;    // how bright the LED is
