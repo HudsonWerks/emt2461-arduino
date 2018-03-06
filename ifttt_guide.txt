@@ -1,0 +1,24 @@
+
+1) IFTTT setup - set up an applet on IFTTT following the same directions for this in the methods I gave you in the lecture deck. This is a summary of those IFTTT steps:
+
+     a. Set up trigger using the Webhook service
+     b. Set up an action using the SMS service
+     c. Save and enable your new applet
+
+2) In the Arduino IDE, go to Sketch > Include Library  > Library Manager. In the window that pops up, use search term "IFTTT." You should get an optional library to install called "IFTTTMaker."
+
+3) If it's not already installed, Install IFTTTMaker now.
+
+4) Now, in your File > Examples menu, an IFTTT Maker sketch library should be available (which you just installed in step 3). From this menu, choose the ESP8266 > TriggerEvent sketch.
+
+4) You wil now modify this sketch to accommodate several things:
+
+   a. Header - the header needs to change since we aren't using the ESP8266 (remember my comments around this from last week). So, you will comment out the header that is specific to the ESP8266, and add a new line underneath this:
+
+      #include <WiFi.h>
+
+  b. Network and password - obviously, you have to input the relevant Wifi credentials here to get a connection.
+
+  c. IFFTTT  credentials - note the need to input your IFTTT "KEY" and "EVENT_NAME", which you will get after having properly set up an IFTTT Maker Webhook applet (see step 1).
+
+Once all the above is done, test your connections and you should successfully receive an SMS.
