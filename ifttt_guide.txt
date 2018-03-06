@@ -11,7 +11,7 @@
 
 4) Now, in your File > Examples menu, an IFTTT Maker sketch library should be available (which you just installed in step 3). From this menu, choose the ESP8266 > TriggerEvent sketch.
 
-4) You wil now modify this sketch to accommodate several things:
+4) You will now modify this sketch to accommodate several things:
 
    a. Header - the header needs to change since we aren't using the ESP8266 (remember my comments around this from last week). So, you will comment out the header that is specific to the ESP8266, and add a new line underneath this:
 
