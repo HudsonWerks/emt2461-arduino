@@ -20,5 +20,7 @@
   b. Network and password - obviously, you have to input the relevant Wifi credentials here to get a connection.
 
   c. IFFTTT  credentials - note the need to input your IFTTT "KEY" and "EVENT_NAME", which you will get after having properly set up an IFTTT Maker Webhook applet (see step 1).
+  
+SETTINGS AT THE FOLLOWING URL:  https://ifttt.com/services/maker_webhooks/settings
 
 Once all the above is done, test your connections and you should successfully receive an SMS.
