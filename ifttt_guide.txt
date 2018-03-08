@@ -25,5 +25,7 @@ SETTINGS AT THE FOLLOWING URL:  https://ifttt.com/services/maker_webhooks/settin
 
 5) Once all the above is done, test your connections, and open up the Serial Monitor in your IDE. If you're connected to your network successfully, then you should see the message "WiFi Connected" followed by an IP address. Then, a successful connection to the IFTTT service will result in the message "Successfully sent." Once that happens, you should successfully receive an SMS.
 
-NOTE: double-check that the trigger name that you created for the IFTTT applet matches exactly the name you've used in the actual Arduino sketch, including letter case.
+NOTE: 
+a. Double-check that the trigger name that you created for the IFTTT applet matches exactly the name you've used in the actual Arduino sketch, including letter case.
+b. You may need to push the RST button several times to get a proper Wifi connection.
 
