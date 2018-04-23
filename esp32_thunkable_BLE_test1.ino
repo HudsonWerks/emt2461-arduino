@@ -132,7 +132,7 @@ void setup() {
   // Start the service
   pService->start();
 
-//Task 6:  Define advertising in the context of BLE.
+//Task 7:  Define advertising in the context of BLE.
   // Start advertising
   pServer->getAdvertising()->start();
   Serial.println("Waiting for a client connection to notify...");
@@ -156,7 +156,7 @@ void loop() {
     Serial.print(txString);
     Serial.println(" ***");
 
-//TASK 7/EXTRA CREDIT - Incorporate Internal Temperature sensor script into this code and capture the data on your Thunkable app
+//TASK 8/EXTRA CREDIT - Incorporate Internal Temperature sensor script into this code and capture the data on your Thunkable app
 // Your temperature code here
 
     // You can add the rxValue checks down here instead
