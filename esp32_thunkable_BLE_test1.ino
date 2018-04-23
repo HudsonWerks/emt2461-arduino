@@ -36,8 +36,7 @@ float txValue = 0;
 const int readPin = 32; // Use GPIO number. See ESP32 board pinouts
 
 //Task 2:  Define the on board LED for the ESP32 that you will turn on/off using the smartphone app UI
-//const int LED = 2; // Could be different depending on the dev board. I used the DOIT ESP32 dev board.
-const int LED = 5; // Could be different depending on the dev board. I used the DOIT ESP32 dev board.
+const int LED = 2; // Could be different depending on the dev board. I used the DOIT ESP32 dev board.
 
 
 //std::string rxValue; // Could also make this a global var to access it in loop()
