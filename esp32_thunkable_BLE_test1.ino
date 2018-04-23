@@ -104,7 +104,7 @@ void setup() {
   // Create the BLE Device
   // TASK 6: Give your ESP32 a custom name, otherwise you won't recognize it during a scan
 
-  BLEDevice::init("ESP32 CAH: UART Test"); // Give it a name
+  BLEDevice::init("GIVE IT A NAME"); // Give it a name
 
   // Create the BLE Server
   BLEServer *pServer = BLEDevice::createServer();
